@@ -1,10 +1,10 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("CAEL HUB V1", "Ocean")
+local Window = Library.CreateLib("Cael hub V1", "Ocean")
 
 local PlrTab = Window:NewTab("Home")
-local PlrSection = PlrTab:NewSection("Bem-vindo, " .. game.Players.LocalPlayer.DisplayName)
-local PlrSection = PlrTab:NewSection("Valeu por usar Cael Hub")
+local PlrSection = PlrTab:NewSection("Welcome, " .. game.Players.LocalPlayer.DisplayName)
+local PlrSection = PlrTab:NewSection("Valeu por usar o Cael hub")
 
 local PlrTab = Window:NewTab("Players Hacks")
 local PlrSection = PlrTab:NewSection("Hacks")
@@ -108,4 +108,4 @@ OthersSection:NewButton("Free gamepass", "ButtonInfo", function()
 end)
 
 local PlrTab = Window:NewTab("credits")
-local PlrSection = PlrTab:NewSection("--.CAEL-HUB --")
+local PlrSection = PlrTab:NewSection("--.im_dev --")
